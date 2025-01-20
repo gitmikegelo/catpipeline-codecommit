@@ -1,0 +1,7 @@
+# Ensure Dockerfile and HTML files use LF
+*.sh text eol=lf
+*.html text eol=lf
+Dockerfile text eol=lf
+
+# Other files (e.g., Windows-specific files) can use CRLF
+*.bat text eol=crlf
